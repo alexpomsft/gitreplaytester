@@ -1,4 +1,4 @@
-This is a script to replay a CHANGELOG.json file and simulate the git status afterwards.
+This is a script to replay a CHANGELOG.json file, commit by commit, useful for inspecting the git repo growth as a result of the commits.
 
 - Replace the sample beachball CHANGELOG.json file in the data directory with a big one.
 - Run `npx ts-node ./playChangeLog.ts`
